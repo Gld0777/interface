@@ -42,7 +42,7 @@ const FancyButton = styled.button`
   }
 `
 
-const Option = styled(FancyButton)<{ active: boolean; redesignFlag: boolean }>`
+const Option = styled(FancyButton) <{ active: boolean; redesignFlag: boolean }>`
   margin-right: 8px;
   border-radius: ${({ redesignFlag }) => redesignFlag && '12px'};
   :hover {
@@ -70,7 +70,7 @@ const Input = styled.input<{ redesignFlag: boolean }>`
   }
 `
 
-const OptionCustom = styled(FancyButton)<{ active?: boolean; warning?: boolean; redesignFlag: boolean }>`
+const OptionCustom = styled(FancyButton) <{ active?: boolean; warning?: boolean; redesignFlag: boolean }>`
   height: 2rem;
   position: relative;
   padding: 0 0.75rem;
@@ -82,7 +82,7 @@ const OptionCustom = styled(FancyButton)<{ active?: boolean; warning?: boolean; 
       : warning && `1px solid ${theme.deprecated_red1}`};
   :hover {
     border: ${({ theme, active, warning }) =>
-      active && `1px solid ${warning ? darken(0.1, theme.deprecated_red1) : darken(0.1, theme.deprecated_primary1)}`};
+    active && `1px solid ${warning ? darken(0.1, theme.deprecated_red1) : darken(0.1, theme.deprecated_primary1)}`};
   }
 
   input {
@@ -214,8 +214,8 @@ export default function TransactionSettings({ placeholderSlippage }: Transaction
                   slippageInput.length > 0
                     ? slippageInput
                     : userSlippageTolerance === 'auto'
-                    ? ''
-                    : userSlippageTolerance.toFixed(2)
+                      ? ''
+                      : userSlippageTolerance.toFixed(2)
                 }
                 onChange={(e) => parseSlippageInput(e.target.value)}
                 onBlur={() => {
@@ -271,8 +271,8 @@ export default function TransactionSettings({ placeholderSlippage }: Transaction
                   deadlineInput.length > 0
                     ? deadlineInput
                     : deadline === DEFAULT_DEADLINE_FROM_NOW
-                    ? ''
-                    : (deadline / 60).toString()
+                      ? ''
+                      : (deadline / 60).toString()
                 }
                 onChange={(e) => parseCustomDeadline(e.target.value)}
                 onBlur={() => {

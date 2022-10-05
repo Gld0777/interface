@@ -240,7 +240,8 @@ export function getChainInfo(chainId: any): any {
   return undefined
 }
 
-export const MAINNET_INFO = CHAIN_INFO[SupportedChainId.MAINNET]
+export const MAINNET_INFO = CHAIN_INFO[SupportedChainId.POLYGON]
 export function getChainInfoOrDefault(chainId: number | undefined) {
+  console.log('debug chainId', chainId)
   return getChainInfo(chainId) ?? MAINNET_INFO
 }

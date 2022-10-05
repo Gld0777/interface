@@ -312,9 +312,9 @@ export default function WalletModal({
         <AutoRow style={{ flexWrap: 'nowrap', padding: '4px 16px' }}>
           <ThemedText.BodySecondary fontSize={12}>
             <Trans>
-              By connecting a wallet, you agree to Uniswap Labs’{' '}
+              By connecting a wallet, you agree to VetCoin Swap Labs’{' '}
               <ExternalLink href="https://uniswap.org/terms-of-service/">Terms of Service</ExternalLink> and acknowledge
-              that you have read and understand the Uniswap{' '}
+              that you have read and understand the VetCoin Swap{' '}
               <ExternalLink href="https://uniswap.org/disclaimer/">Protocol Disclaimer</ExternalLink>.
             </Trans>
           </ThemedText.BodySecondary>
@@ -324,11 +324,11 @@ export default function WalletModal({
           <AutoRow style={{ flexWrap: 'nowrap' }}>
             <ThemedText.DeprecatedBody fontSize={12}>
               <Trans>
-                By connecting a wallet, you agree to Uniswap Labs’{' '}
+                By connecting a wallet, you agree to VetCoin Swap Labs’{' '}
                 <ExternalLink style={{ textDecoration: 'underline' }} href="https://uniswap.org/terms-of-service/">
                   Terms of Service
                 </ExternalLink>{' '}
-                and acknowledge that you have read and understand the Uniswap{' '}
+                and acknowledge that you have read and understand the VetCoin Swap{' '}
                 <ExternalLink style={{ textDecoration: 'underline' }} href="https://uniswap.org/disclaimer/">
                   Protocol Disclaimer
                 </ExternalLink>

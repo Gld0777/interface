@@ -183,9 +183,9 @@ const BridgeLabel = ({ chainId }: { chainId: SupportedChainId }) => {
     case SupportedChainId.POLYGON:
     case SupportedChainId.POLYGON_MUMBAI:
       return <Trans>Polygon Bridge</Trans>
-    case SupportedChainId.CELO:
-    case SupportedChainId.CELO_ALFAJORES:
-      return <Trans>Portal Bridge</Trans>
+    // case SupportedChainId.CELO:
+    // case SupportedChainId.CELO_ALFAJORES:
+    //   return <Trans>Portal Bridge</Trans>
     default:
       return <Trans>Bridge</Trans>
   }
@@ -201,11 +201,11 @@ const ExplorerLabel = ({ chainId }: { chainId: SupportedChainId }) => {
     case SupportedChainId.POLYGON:
     case SupportedChainId.POLYGON_MUMBAI:
       return <Trans>Polygonscan</Trans>
-    case SupportedChainId.CELO:
-    case SupportedChainId.CELO_ALFAJORES:
-      return <Trans>Blockscout</Trans>
+    // case SupportedChainId.CELO:
+    // case SupportedChainId.CELO_ALFAJORES:
+    //   return <Trans>Blockscout</Trans>
     default:
-      return <Trans>Etherscan</Trans>
+      return <Trans>Polygonscan</Trans>
   }
 }
 
@@ -272,16 +272,17 @@ function Row({
 }
 
 const NETWORK_SELECTOR_CHAINS = [
-  SupportedChainId.MAINNET,
+  // SupportedChainId.MAINNET,
   SupportedChainId.POLYGON,
-  SupportedChainId.OPTIMISM,
-  SupportedChainId.ARBITRUM_ONE,
-  SupportedChainId.CELO,
+  // SupportedChainId.OPTIMISM,
+  // SupportedChainId.ARBITRUM_ONE,
+  // SupportedChainId.CELO,
 ]
 
 export default function NetworkSelector() {
   const { chainId, provider } = useWeb3React()
 
+  console.log('debug info', chainId, provider)
   const node = useRef<HTMLDivElement>(null)
   const isOpen = useModalIsOpen(ApplicationModal.NETWORK_SELECTOR)
   const openModal = useOpenModal(ApplicationModal.NETWORK_SELECTOR)
@@ -324,9 +325,9 @@ export default function NetworkSelector() {
       {isOpen && (
         <FlyoutMenu>
           <FlyoutMenuContents>
-            <FlyoutHeader>
+            {/* <FlyoutHeader>
               <Trans>Select a {!onSupportedChain ? ' supported ' : ''}network</Trans>
-            </FlyoutHeader>
+            </FlyoutHeader> */}
             {NETWORK_SELECTOR_CHAINS.map((chainId: SupportedChainId) => (
               <Row
                 onSelectChain={async (targetChainId: SupportedChainId) => {

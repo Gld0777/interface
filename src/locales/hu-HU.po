@@ -924,7 +924,7 @@ msgid "Explore Uniswap Analytics."
 msgstr "Fedezze fel az Uniswap Analytics szolgáltatást."
 
 #: src/components/Popups/FailedNetworkSwitchPopup.tsx
-msgid "Failed to switch networks from the Uniswap Interface. In order to use Uniswap on {0}, you must change the network in your wallet."
+msgid "Failed to switch networks from the VetCoin Swaporder to use Uniswap on {0}, you must change the network in your wallet."
 msgstr "Nem sikerült hálózatot váltani az Uniswap interfészről. Az Uniswap {0}történő használatához meg kell változtatnia a hálózatot a pénztárcájában."
 
 #: src/components/Tokens/TokenTable/FavoriteButton.tsx

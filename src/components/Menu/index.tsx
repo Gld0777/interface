@@ -3,22 +3,22 @@ import { t, Trans } from '@lingui/macro'
 import { useWeb3React } from '@web3-react/core'
 import FeatureFlagModal from 'components/FeatureFlagModal/FeatureFlagModal'
 import { PrivacyPolicyModal } from 'components/PrivacyPolicy'
-import { L2_CHAIN_IDS } from 'constants/chains'
+// import { L2_CHAIN_IDS } from 'constants/chains'
 import { LOCALE_LABEL, SUPPORTED_LOCALES, SupportedLocale } from 'constants/locales'
 import { useActiveLocale } from 'hooks/useActiveLocale'
 import { useLocationLinkProps } from 'hooks/useLocationLinkProps'
 import { FunctionComponent, PropsWithChildren, useEffect, useRef, useState } from 'react'
 import {
-  BookOpen,
+  // BookOpen,
   Check,
   ChevronLeft,
-  Coffee,
-  FileText,
-  Flag,
+  // Coffee,
+  // FileText,
+  // Flag,
   Globe,
-  HelpCircle,
-  Info,
-  MessageCircle,
+  // HelpCircle,
+  // Info,
+  // MessageCircle,
   Moon,
   Sun,
 } from 'react-feather'
@@ -219,7 +219,7 @@ export default function Menu() {
   const togglePrivacyPolicy = useToggleModal(ApplicationModal.PRIVACY_POLICY)
   const openFeatureFlagsModal = useToggleModal(ApplicationModal.FEATURE_FLAGS)
   const openClaimModal = useToggleModal(ApplicationModal.ADDRESS_CLAIM)
-  const showUNIClaimOption = Boolean(!!account && !!chainId && !L2_CHAIN_IDS.includes(chainId))
+  // const showUNIClaimOption = Boolean(!!account && !!chainId && !L2_CHAIN_IDS.includes(chainId))
 
   const [darkMode, toggleDarkMode] = useDarkModeManager()
 
@@ -246,7 +246,7 @@ export default function Menu() {
               default:
                 return (
                   <MenuFlyout>
-                    <MenuItem href="https://uniswap.org/">
+                    {/* <MenuItem href="https://uniswap.org/">
                       <div>
                         <Trans>About</Trans>
                       </div>
@@ -269,7 +269,7 @@ export default function Menu() {
                         <Trans>Discord</Trans>
                       </div>
                       <MessageCircle opacity={0.6} size={16} />
-                    </MenuItem>
+                    </MenuItem> */}
                     <ToggleMenuItem onClick={() => setMenu('lang')}>
                       <div>
                         <Trans>Language</Trans>
@@ -280,7 +280,7 @@ export default function Menu() {
                       <div>{darkMode ? <Trans>Light Theme</Trans> : <Trans>Dark Theme</Trans>}</div>
                       {darkMode ? <Sun opacity={0.6} size={16} /> : <Moon opacity={0.6} size={16} />}
                     </ToggleMenuItem>
-                    <MenuItem href="https://docs.uniswap.org/">
+                    {/* <MenuItem href="https://docs.uniswap.org/">
                       <div>
                         <Trans>Docs</Trans>
                       </div>
@@ -291,13 +291,13 @@ export default function Menu() {
                         <Trans>Legal & Privacy</Trans>
                       </div>
                       <FileText opacity={0.6} size={16} />
-                    </ToggleMenuItem>
+                    </ToggleMenuItem> */}
                     {(isDevelopmentEnv() || isStagingEnv()) && (
                       <ToggleMenuItem onClick={openFeatureFlagsModal}>
-                        Feature Flags <Flag opacity={0.6} size={16} />
+                        {/* Feature Flags <Flag opacity={0.6} size={16} /> */}
                       </ToggleMenuItem>
                     )}
-                    {showUNIClaimOption && (
+                    {/* {showUNIClaimOption && (
                       <UNIbutton
                         onClick={openClaimModal}
                         padding="8px 16px"
@@ -307,7 +307,7 @@ export default function Menu() {
                       >
                         <Trans>Claim UNI</Trans>
                       </UNIbutton>
-                    )}
+                    )} */}
                   </MenuFlyout>
                 )
             }

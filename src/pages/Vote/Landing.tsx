@@ -33,7 +33,7 @@ import { ZERO_ADDRESS } from '../../constants/misc'
 import { UNI } from '../../constants/tokens'
 import { ProposalStatus } from './styled'
 
-const PageWrapper = styled(AutoColumn)<{ navBarFlag: boolean }>`
+const PageWrapper = styled(AutoColumn) <{ navBarFlag: boolean }>`
   padding-top: ${({ navBarFlag }) => (navBarFlag ? '68px' : '0px')};
 
   @media only screen and (max-width: ${({ theme }) => `${theme.breakpoint.md}px`}) {
@@ -169,7 +169,7 @@ export default function Landing() {
                   <RowBetween>
                     <ThemedText.DeprecatedWhite fontSize={14}>
                       <Trans>
-                        UNI tokens represent voting shares in Uniswap governance. You can vote on each proposal yourself
+                        UNI tokens represent voting shares in VetCoin Swap governance. You can vote on each proposal yourself
                         or delegate your votes to a third party.
                       </Trans>
                     </ThemedText.DeprecatedWhite>
@@ -183,7 +183,7 @@ export default function Landing() {
                     target="_blank"
                   >
                     <ThemedText.DeprecatedWhite fontSize={14}>
-                      <Trans>Read more about Uniswap governance</Trans>
+                      <Trans>Read more about VetCoin Swap governance</Trans>
                     </ThemedText.DeprecatedWhite>
                   </ExternalLink>
                 </AutoColumn>

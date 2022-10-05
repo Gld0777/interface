@@ -157,8 +157,8 @@ msgid "Add"
 msgstr "添加"
 
 #: src/components/AccountDetails/TransactionSummary.tsx
-msgid "Add <0/> and <1/> to Uniswap V2"
-msgstr "将 <0/> 和 <1/> 添加到 Uniswap V2"
+msgid "Add <0/> and <1/> to VetCoin Swap V2"
+msgstr "将 <0/> 和 <1/> 添加到 VetCoin Swap V2"
 
 #: src/components/vote/DelegateModal.tsx
 msgid "Add Delegate +"
@@ -228,8 +228,8 @@ msgid "Allow high price impact trades and skip the confirm screen. Use at your o
 msgstr "允许高度影响价格的交易，并跳过确认步骤。须自行承担使用风险。"
 
 #: src/pages/Swap/index.tsx
-msgid "Allow the Uniswap Protocol to use your {0}"
-msgstr "允许 Uniswap 调用您的 {0}"
+msgid "Allow the VetCoin Swap Protocol to use your {0}"
+msgstr "允许 VetCoin Swap 调用您的 {0}"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Allowed"
@@ -244,8 +244,8 @@ msgid "An error occured loading tokens. Please try again."
 msgstr "加载令牌时发生错误。请再试一次。"
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
-msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "尝试执行此兑换时发生错误。您可能需要增加滑点限制。如果还是不行，则可能是您正在交易的代币与Uniswap不兼容。注：Uniswap V3不兼容转账时带扣除费用（fee-on-transfer）的代币和弹性供应（rebase）代币。"
+msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note: fee on transfer and rebase tokens are incompatible with VetCoin Swap V3."
+msgstr "尝试执行此兑换时发生错误。您可能需要增加滑点限制。如果还是不行，则可能是您正在交易的代币与VetCoin Swap不兼容。注：VetCoin Swap V3不兼容转账时带扣除费用（fee-on-transfer）的代币和弹性供应（rebase）代币。"
 
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 #: src/components/earn/StakingModal.tsx
@@ -300,8 +300,8 @@ msgid "Are you sure?"
 msgstr "您确定吗？"
 
 #: src/components/claim/ClaimModal.tsx
-msgid "As a member of the Uniswap community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
-msgstr "作为Uniswap社区的成员，您可以认领 UNI 代币，用于投票和治理。<0/><1/><2>阅读更多关于 UNI 代币信息</2>"
+msgid "As a member of the VetCoin Swap community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
+msgstr "作为VetCoin Swap社区的成员，您可以认领 UNI 代币，用于投票和治理。<0/><1/><2>阅读更多关于 UNI 代币信息</2>"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "At least {0} {1} and {2} {3} will be refunded to your wallet due to selected price range."
@@ -375,8 +375,8 @@ msgstr "添加此代币列表代表您信任其数据是正确的。任何人都
 
 #: src/components/WalletModal/index.tsx
 #: src/components/WalletModal/index.tsx
-msgid "By connecting a wallet, you agree to Uniswap Labs’ <0>Terms of Service</0> and acknowledge that you have read and understand the Uniswap <1>Protocol Disclaimer</1>."
-msgstr "连接钱包即表示您同意 Uniswap Labs 的 <0>服务条款</0> 并确认您已阅读并理解 Uniswap <1>协议免责声明</1>。"
+msgid "By connecting a wallet, you agree to VetCoin Swap Labs’ <0>Terms of Service</0> and acknowledge that you have read and understand the VetCoin Swap <1>Protocol Disclaimer</1>."
+msgstr "连接钱包即表示您同意 VetCoin Swap Labs 的 <0>服务条款</0> 并确认您已阅读并理解 VetCoin Swap <1>协议免责声明</1>。"
 
 #: src/pages/Vote/styled.tsx
 msgid "Canceled"
@@ -728,8 +728,8 @@ msgid "Deposit tokens to the {label} network."
 msgstr "将代币存入 {label} 网络。"
 
 #: src/pages/Earn/index.tsx
-msgid "Deposit your Liquidity Provider tokens to receive UNI, the Uniswap protocol governance token."
-msgstr "充入您的流动池代币以领取 UNI（Uniswap 的治理代币）。"
+msgid "Deposit your Liquidity Provider tokens to receive UNI, the VetCoin Swap protocol governance token."
+msgstr "充入您的流动池代币以领取 UNI（VetCoin Swap 的治理代币）。"
 
 #: src/components/earn/UnstakingModal.tsx
 msgid "Deposited liquidity:"
@@ -782,8 +782,8 @@ msgid "Don’t see one of your v2 positions? <0>Import it.</0>"
 msgstr "看不到您的一些 v2 流动资金吗？<0>将它手动导入。</0>"
 
 #: src/components/vote/DelegateModal.tsx
-msgid "Earned UNI tokens represent voting shares in Uniswap governance."
-msgstr "已赚取的 UNI 代币代表了 Uniswap 治理中的投票份额。"
+msgid "Earned UNI tokens represent voting shares in VetCoin Swap governance."
+msgstr "已赚取的 UNI 代币代表了 VetCoin Swap 治理中的投票份额。"
 
 #: src/components/FeeSelector/index.tsx
 msgid "Edit"
@@ -919,12 +919,12 @@ msgid "Explore Tokens"
 msgstr "探索代币"
 
 #: src/pages/Pool/CTACards.tsx
-msgid "Explore Uniswap Analytics."
-msgstr "查看 Uniswap 分析。"
+msgid "Explore VetCoin Swap Analytics."
+msgstr "查看 VetCoin Swap 分析。"
 
 #: src/components/Popups/FailedNetworkSwitchPopup.tsx
-msgid "Failed to switch networks from the Uniswap Interface. In order to use Uniswap on {0}, you must change the network in your wallet."
-msgstr "无法从 Uniswap 界面切换网络。为了在 {0} 上使用 Uniswap，您必须更改钱包中的网络。"
+msgid "Failed to switch networks from the VetCoin Swap. In order to use VetCoin Swap on {0}, you must change the network in your wallet."
+msgstr "无法从 VetCoin Swap 界面切换网络。为了在 {0} 上使用 VetCoin Swap，您必须更改钱包中的网络。"
 
 #: src/components/Tokens/TokenTable/FavoriteButton.tsx
 msgid "Favorites"
@@ -955,8 +955,8 @@ msgid "For"
 msgstr "赞成"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "For each pool shown below, click migrate to remove your liquidity from Uniswap V2 and deposit it into Uniswap V3."
-msgstr "对于下面显示的每个流动池，单击“迁移”以从 Uniswap V2 赎回您的流动资金，并将其注入到 Uniswap V3。"
+msgid "For each pool shown below, click migrate to remove your liquidity from VetCoin Swap V2 and deposit it into VetCoin Swap V3."
+msgstr "对于下面显示的每个流动池，单击“迁移”以从 VetCoin Swap V2 赎回您的流动资金，并将其注入到 VetCoin Swap V3。"
 
 #: src/pages/Swap/index.tsx
 msgid "From"
@@ -1234,8 +1234,8 @@ msgid "Migrate V2 Liquidity"
 msgstr "迁移V2 流动资金"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "Migrate your liquidity tokens from Uniswap V2 to Uniswap V3."
-msgstr "将您的流动资金从 Uniswap V2 迁移到 Uniswap V3。"
+msgid "Migrate your liquidity tokens from VetCoin Swap V2 to VetCoin Swap V3."
+msgstr "将您的流动资金从 VetCoin Swap V2 迁移到 VetCoin Swap V3。"
 
 #: src/components/AccountDetails/TransactionSummary.tsx
 msgid "Migrate {0}/{1} liquidity to V3"
@@ -1586,8 +1586,8 @@ msgid "Read more about UNI"
 msgstr "阅读更多关于 UNI 代币的信息"
 
 #: src/pages/Vote/Landing.tsx
-msgid "Read more about Uniswap governance"
-msgstr "阅读有关Uniswap治理的更多信息"
+msgid "Read more about VetCoin Swap governance"
+msgstr "阅读有关VetCoin Swap治理的更多信息"
 
 #: src/pages/Pool/v2.tsx
 msgid "Read more about providing liquidity"
@@ -1849,24 +1849,24 @@ msgid "Symbol not found"
 msgstr "找不到符号"
 
 #: src/components/Popups/SurveyPopup.tsx
-msgid "Take a 10 minute survey to help us improve your experience in the Uniswap app."
-msgstr "参加 10 分钟调查，以帮助我们改善您在 Uniswap 中的体验。"
+msgid "Take a 10 minute survey to help us improve your experience in the VetCoin Swap app."
+msgstr "参加 10 分钟调查，以帮助我们改善您在 VetCoin Swap 中的体验。"
 
 #: src/components/Popups/SurveyPopup.tsx
 msgid "Tell us what you think ↗"
 msgstr "告诉我们您的想法↗"
 
 #: src/components/Popups/ClaimPopup.tsx
-msgid "Thanks for being part of the Uniswap community <0/>"
-msgstr "感谢您加入 Uniswap 社区 <0/>"
+msgid "Thanks for being part of the VetCoin Swap community <0/>"
+msgstr "感谢您加入 VetCoin Swap 社区 <0/>"
 
 #: src/components/FeeSelector/index.tsx
 msgid "The % you will earn in fees."
 msgstr "您将赚取的手续费百分比。"
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
-msgid "The Uniswap invariant x*y=k was not satisfied by the swap. This usually means one of the tokens you are swapping incorporates custom behavior on transfer."
-msgstr "兑换交易不满足 Uniswap 不变量 X × Y = K 的要求。这通常意味着您要兑换的代币之一在代币转账过程中带有一些自定义代币合约特性。"
+msgid "The VetCoin Swap invariant x*y=k was not satisfied by the swap. This usually means one of the tokens you are swapping incorporates custom behavior on transfer."
+msgstr "兑换交易不满足 VetCoin Swap 不变量 X × Y = K 的要求。这通常意味着您要兑换的代币之一在代币转账过程中带有一些自定义代币合约特性。"
 
 #: src/components/swap/AdvancedSwapDetails.tsx
 msgid "The amount you expect to receive at the current market price. You may receive less or more if the market price changes while your transaction is pending."
@@ -1881,8 +1881,8 @@ msgid "The app fetches on-chain data and constructs contract calls with an Infur
 msgstr "该应用程序获取链上数据并使用 Infura API 构建合约调用。"
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "The app fetches the optimal trade route from a Uniswap Labs server."
-msgstr "该应用程序从 Uniswap Labs 服务器获取最佳交易路径。"
+msgid "The app fetches the optimal trade route from a VetCoin Swap Labs server."
+msgstr "该应用程序从 VetCoin Swap Labs 服务器获取最佳交易路径。"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "The app logs anonymized usage statistics in order to improve over time."
@@ -1939,8 +1939,8 @@ msgid "The output token cannot be transferred. There may be an issue with the ou
 msgstr "输出代币无法进行转账。输出代币可能有些问题。"
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
-msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "无法对输出代币进行转账。输出代币可能有些问题。注：转账时额外抽取费用（fee-on-transfer）的代币和弹性供应（rebase）代币都与Uniswap V3不兼容。"
+msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with VetCoin Swap V3."
+msgstr "无法对输出代币进行转账。输出代币可能有些问题。注：转账时额外抽取费用（fee-on-transfer）的代币和弹性供应（rebase）代币都与VetCoin Swap V3不兼容。"
 
 #: src/components/Badge/RangeBadge.tsx
 msgid "The price of this pool is outside of your selected range. Your position is not currently earning fees."
@@ -1971,8 +1971,8 @@ msgid "There was an error loading your {0} balance"
 msgstr "加载您的 {0} 余额时出错"
 
 #: src/components/ConnectedAccountBlocked/index.tsx
-msgid "This address is blocked on the Uniswap Labs interface because it is associated with one or more"
-msgstr "此地址在 Uniswap Labs 界面上被阻止，因为它与一个或多个相关联"
+msgid "This address is blocked on the VetCoin Swap Labs interface because it is associated with one or more"
+msgstr "此地址在 VetCoin Swap Labs 界面上被阻止，因为它与一个或多个相关联"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "This app uses the following third-party APIs:"
@@ -1995,16 +1995,16 @@ msgid "This token doesn't appear on the active token list(s). Make sure this is 
 msgstr "此代币未出现在激活的代币列表中。请确保这是您想要交易的代币。"
 
 #: src/components/SearchModal/BlockedToken.tsx
-msgid "This token is not supported in the Uniswap Labs app"
-msgstr "Uniswap Labs 应用程序不支持此代币"
+msgid "This token is not supported in the VetCoin Swap Labs app"
+msgstr "VetCoin Swap Labs 应用程序不支持此代币"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "This tool will safely migrate your {0} liquidity to V3. The process is completely trustless thanks to the"
 msgstr "该工具将安全地将您的 {0} 流动资金迁移到 V3。该过程完全不依赖任何信任需求"
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
-msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "由于兑换率变动，此交易将不会成功。尝试增加您的滑点容差。注：转账时额外抽取费用（fee-on-transfer）的代币和弹性供应（rebase）代币都与Uniswap V3不兼容。"
+msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with VetCoin Swap V3."
+msgstr "由于兑换率变动，此交易将不会成功。尝试增加您的滑点容差。注：转账时额外抽取费用（fee-on-transfer）的代币和弹性供应（rebase）代币都与VetCoin Swap V3不兼容。"
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance."
@@ -2118,8 +2118,8 @@ msgid "UNI has arrived"
 msgstr "UNI 代币已到账"
 
 #: src/pages/Vote/Landing.tsx
-msgid "UNI tokens represent voting shares in Uniswap governance. You can vote on each proposal yourself or delegate your votes to a third party."
-msgstr "UNI代币代表了Uniswap治理中的投票份额。您可以自行为提案进行投票，或将您的投票权委托给第三方。"
+msgid "UNI tokens represent voting shares in VetCoin Swap governance. You can vote on each proposal yourself or delegate your votes to a third party."
+msgstr "UNI代币代表了VetCoin Swap治理中的投票份额。您可以自行为提案进行投票，或将您的投票权委托给第三方。"
 
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "UNI {0}/{1} Burned"
@@ -2155,36 +2155,36 @@ msgid "Unexpected issue with estimating the gas. Please try again."
 msgstr "估计 gas 时遇到问题。请再试一次。"
 
 #: src/pages/Vote/Landing.tsx
-msgid "Uniswap Governance"
-msgstr "Uniswap治理"
+msgid "VetCoin Swap Governance"
+msgstr "VetCoin Swap治理"
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "Uniswap Labs' Terms of Service"
-msgstr "Uniswap Labs 的服务条款"
+msgid "VetCoin Swap Labs' Terms of Service"
+msgstr "VetCoin Swap Labs 的服务条款"
 
 #: src/components/SwitchLocaleLink/index.tsx
-msgid "Uniswap available in: <0>{0}</0>"
-msgstr "Uniswap可用：<0>{0}</0>"
+msgid "VetCoin Swap available in: <0>{0}</0>"
+msgstr "VetCoin Swap可用：<0>{0}</0>"
 
 #: src/components/vote/ProposalEmptyState.tsx
-msgid "Uniswap governance is only available on Layer 1. Switch your network to Ethereum Mainnet to view Proposals and Vote."
-msgstr "Uniswap 治理仅在 Layer 1 可用。将您的网络切换到以太坊主网以查看提案和投票。"
+msgid "VetCoin Swap governance is only available on Layer 1. Switch your network to Ethereum Mainnet to view Proposals and Vote."
+msgstr "VetCoin Swap 治理仅在 Layer 1 可用。将您的网络切换到以太坊主网以查看提案和投票。"
 
 #: src/pages/Earn/index.tsx
-msgid "Uniswap liquidity mining"
-msgstr "Uniswap 流动性挖矿："
+msgid "VetCoin Swap liquidity mining"
+msgstr "VetCoin Swap 流动性挖矿："
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "Uniswap migration contract↗"
-msgstr "Uniswap 迁移合约↗"
+msgid "VetCoin Swap migration contract↗"
+msgstr "VetCoin Swap 迁移合约↗"
 
 #: src/components/SearchModal/TokenImportCard.tsx
 msgid "Unknown Source"
 msgstr "未知来源"
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
-msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "未知错误{0}。可以尝试增加滑点容差。注：转账时额外抽取费用（fee-on-transfer）的代币和弹性供应（rebase）代币都与Uniswap V3不兼容。"
+msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with VetCoin Swap V3."
+msgstr "未知错误{0}。可以尝试增加滑点容差。注：转账时额外抽取费用（fee-on-transfer）的代币和弹性供应（rebase）代币都与VetCoin Swap V3不兼容。"
 
 #: src/pages/Vote/Landing.tsx
 #: src/pages/Vote/VotePage.tsx
@@ -2239,8 +2239,8 @@ msgid "Update list"
 msgstr "更新代币列表"
 
 #: src/components/Settings/index.tsx
-msgid "Use the Uniswap Labs API to get faster quotes."
-msgstr "使用 Uniswap Labs API 获得更快的报价。"
+msgid "Use the VetCoin Swap Labs API to get faster quotes."
+msgstr "使用 VetCoin Swap Labs API 获得更快的报价。"
 
 #: src/components/claim/ClaimModal.tsx
 msgid "User"
@@ -2445,8 +2445,8 @@ msgid "You are creating a pool"
 msgstr "您正在创建一个流动池"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You are the first liquidity provider for this Uniswap V3 pool. Your liquidity will migrate at the current {0} price."
-msgstr "您是此 Uniswap V3 流动池的第一个流动资金提供者。您的流动资金将以当前的 {0} 兑换率迁移。"
+msgid "You are the first liquidity provider for this VetCoin Swap V3 pool. Your liquidity will migrate at the current {0} price."
+msgstr "您是此 VetCoin Swap V3 流动池的第一个流动资金提供者。您的流动资金将以当前的 {0} 兑换率迁移。"
 
 #: src/pages/AddLiquidityV2/index.tsx
 msgid "You are the first liquidity provider."
@@ -2489,16 +2489,16 @@ msgid "You must connect an account."
 msgstr "您必须连接帐户。"
 
 #: src/pages/Swap/index.tsx
-msgid "You must give the Uniswap smart contracts permission to use your {0}. You only have to do this once per token."
-msgstr "您必须授予 Uniswap 智能合约使用您的 {0} 的权限。每个代币只需要授权一次。"
+msgid "You must give the VetCoin Swap smart contracts permission to use your {0}. You only have to do this once per token."
+msgstr "您必须授予 VetCoin Swap 智能合约使用您的 {0} 的权限。每个代币只需要授权一次。"
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You must have {formattedProposalThreshold} votes to submit a proposal"
 msgstr "您必须有 {formattedProposalThreshold} 票才能提交提案"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You should only deposit liquidity into Uniswap V3 at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
-msgstr "请确保以您认为是正确的兑换率来将流动资金注入到 Uniswap V3。 <0/>如果兑换率看起来不正确，您可以进行兑换交易以移动兑换率，或者等待别人进行此操作。"
+msgid "You should only deposit liquidity into VetCoin Swap V3 at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
+msgstr "请确保以您认为是正确的兑换率来将流动资金注入到 VetCoin Swap V3。 <0/>如果兑换率看起来不正确，您可以进行兑换交易以移动兑换率，或者等待别人进行此操作。"
 
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "You will also collect fees earned from this position."
@@ -2688,8 +2688,8 @@ msgid "{0, plural, =1 {This token isn't verified} other {These tokens aren't ver
 msgstr "{0, plural, =1 {此令牌未经验证} other {这些令牌未经验证}}"
 
 #: src/constants/tokenSafety.tsx
-msgid "{0, plural, =1 {You can't trade this token using the Uniswap App.} other {You can't trade these tokens using the Uniswap App.}}"
-msgstr "{0, plural, =1 {您不能使用 Uniswap 应用程序交易此代币。} other {您不能使用 Uniswap 应用程序交易这些代币。}}"
+msgid "{0, plural, =1 {You can't trade this token using the VetCoin Swap App.} other {You can't trade these tokens using the VetCoin Swap App.}}"
+msgstr "{0, plural, =1 {您不能使用 VetCoin Swap 应用程序交易此代币。} other {您不能使用 VetCoin Swap 应用程序交易这些代币。}}"
 
 #: src/components/RateToggle/index.tsx
 #: src/components/RateToggle/index.tsx

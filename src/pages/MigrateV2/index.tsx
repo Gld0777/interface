@@ -121,14 +121,14 @@ export default function MigrateV2() {
               <Trans>Migrate V2 Liquidity</Trans>
             </ThemedText.DeprecatedMediumHeader>
             <div>
-              <QuestionHelper text={<Trans>Migrate your liquidity tokens from Uniswap V2 to Uniswap V3.</Trans>} />
+              <QuestionHelper text={<Trans>Migrate your liquidity tokens from VetCoin Swap V2 to VetCoin Swap V3.</Trans>} />
             </div>
           </AutoRow>
 
           <ThemedText.DeprecatedBody style={{ marginBottom: 8, fontWeight: 400 }}>
             <Trans>
-              For each pool shown below, click migrate to remove your liquidity from Uniswap V2 and deposit it into
-              Uniswap V3.
+              For each pool shown below, click migrate to remove your liquidity from VetCoin Swap V2 and deposit it into
+              VetCoin Swap V3.
             </Trans>
           </ThemedText.DeprecatedBody>
 

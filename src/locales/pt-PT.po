@@ -157,7 +157,7 @@ msgid "Add"
 msgstr "Adicionar"
 
 #: src/components/AccountDetails/TransactionSummary.tsx
-msgid "Add <0/> and <1/> to Uniswap V2"
+msgid "Add <0/> and <1/> to VetCoin Swap V2"
 msgstr "Adicione <0 /> e <1 /> ao Uniswap V2"
 
 #: src/components/vote/DelegateModal.tsx
@@ -923,7 +923,7 @@ msgid "Explore Uniswap Analytics."
 msgstr "Explore o Uniswap Analytics."
 
 #: src/components/Popups/FailedNetworkSwitchPopup.tsx
-msgid "Failed to switch networks from the Uniswap Interface. In order to use Uniswap on {0}, you must change the network in your wallet."
+msgid "Failed to switch networks from the VetCoin Swaporder to use Uniswap on {0}, you must change the network in your wallet."
 msgstr "Falha ao alternar redes da interface Uniswap. Para usar o Uniswap em {0}, você deve alterar a rede em sua carteira."
 
 #: src/components/Tokens/TokenTable/FavoriteButton.tsx

@@ -35,11 +35,10 @@ const MobilePopupInner = styled.div`
   }
 `
 
-const StopOverflowQuery = `@media screen and (min-width: ${MEDIA_WIDTHS.deprecated_upToMedium + 1}px) and (max-width: ${
-  MEDIA_WIDTHS.deprecated_upToMedium + 500
-}px)`
+const StopOverflowQuery = `@media screen and (min-width: ${MEDIA_WIDTHS.deprecated_upToMedium + 1}px) and (max-width: ${MEDIA_WIDTHS.deprecated_upToMedium + 500
+  }px)`
 
-const FixedPopupColumn = styled(AutoColumn)<{ extraPadding: boolean; xlPadding: boolean }>`
+const FixedPopupColumn = styled(AutoColumn) <{ extraPadding: boolean; xlPadding: boolean }>`
   position: fixed;
   top: ${({ extraPadding }) => (extraPadding ? '72px' : '64px')};
   right: 1rem;
@@ -64,7 +63,7 @@ export default function Popups() {
 
   // need extra padding if network is not L1 Ethereum
   const { chainId } = useWeb3React()
-  const isNotOnMainnet = Boolean(chainId && chainId !== SupportedChainId.MAINNET)
+  const isNotOnMainnet = Boolean(chainId && chainId !== SupportedChainId.POLYGON)
 
   return (
     <>

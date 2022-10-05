@@ -22,19 +22,19 @@ export enum SupportedChainId {
 }
 
 export const CHAIN_IDS_TO_NAMES = {
-  [SupportedChainId.MAINNET]: 'mainnet',
-  [SupportedChainId.ROPSTEN]: 'ropsten',
-  [SupportedChainId.RINKEBY]: 'rinkeby',
-  [SupportedChainId.GOERLI]: 'goerli',
-  [SupportedChainId.KOVAN]: 'kovan',
+  // [SupportedChainId.MAINNET]: 'mainnet',
+  // [SupportedChainId.ROPSTEN]: 'ropsten',
+  // [SupportedChainId.RINKEBY]: 'rinkeby',
+  // [SupportedChainId.GOERLI]: 'goerli',
+  // [SupportedChainId.KOVAN]: 'kovan',
   [SupportedChainId.POLYGON]: 'polygon',
-  [SupportedChainId.POLYGON_MUMBAI]: 'polygon_mumbai',
-  [SupportedChainId.CELO]: 'celo',
-  [SupportedChainId.CELO_ALFAJORES]: 'celo_alfajores',
-  [SupportedChainId.ARBITRUM_ONE]: 'arbitrum',
-  [SupportedChainId.ARBITRUM_RINKEBY]: 'arbitrum_rinkeby',
-  [SupportedChainId.OPTIMISM]: 'optimism',
-  [SupportedChainId.OPTIMISM_GOERLI]: 'optimism_goerli',
+  // [SupportedChainId.POLYGON_MUMBAI]: 'polygon_mumbai',
+  // [SupportedChainId.CELO]: 'celo',
+  // [SupportedChainId.CELO_ALFAJORES]: 'celo_alfajores',
+  // [SupportedChainId.ARBITRUM_ONE]: 'arbitrum',
+  // [SupportedChainId.ARBITRUM_RINKEBY]: 'arbitrum_rinkeby',
+  // [SupportedChainId.OPTIMISM]: 'optimism',
+  // [SupportedChainId.OPTIMISM_GOERLI]: 'optimism_goerli',
 }
 
 /**

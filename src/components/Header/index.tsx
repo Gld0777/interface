@@ -2,8 +2,9 @@ import { Trans } from '@lingui/macro'
 import useScrollPosition from '@react-hook/window-scroll'
 import { useWeb3React } from '@web3-react/core'
 import { getChainInfoOrDefault } from 'constants/chainInfo'
-import { SupportedChainId } from 'constants/chains'
-import { TokensVariant, useTokensFlag } from 'featureFlags/flags/tokens'
+// import { SupportedChainId } from 'constants/chains'
+// import { TokensVariant, useTokensFlag } from 'featureFlags/flags/tokens'
+import { useTokensFlag } from 'featureFlags/flags/tokens'
 import { darken } from 'polished'
 import { NavLink, useLocation } from 'react-router-dom'
 import { Text } from 'rebass'
@@ -15,12 +16,13 @@ import { useDarkModeManager } from 'state/user/hooks'
 import styled, { useTheme } from 'styled-components/macro'
 
 import { ReactComponent as Logo } from '../../assets/svg/logo.svg'
-import { ExternalLink, ThemedText } from '../../theme'
+// import { ExternalLink, ThemedText } from '../../theme'
+import { ExternalLink } from '../../theme'
 import ClaimModal from '../claim/ClaimModal'
-import { CardNoise } from '../earn/styled'
+// import { CardNoise } from '../earn/styled'
 import Menu from '../Menu'
 import Row from '../Row'
-import { Dots } from '../swap/styleds'
+// import { Dots } from '../swap/styleds'
 import Web3Status from '../Web3Status'
 import HolidayOrnament from './HolidayOrnament'
 import NetworkSelector from './NetworkSelector'
@@ -283,11 +285,11 @@ export default function Header() {
       <ClaimModal />
       <Title href=".">
         <UniIcon>
-          <Logo fill={darkMode ? deprecated_white : deprecated_black} width="24px" height="100%" title="logo" />
+          <Logo fill={darkMode ? deprecated_white : deprecated_black} width="48px" height="100%" title="logo" />
           <HolidayOrnament />
         </UniIcon>
       </Title>
-      <HeaderLinks>
+      {/* <HeaderLinks>
         <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
           <Trans>Swap</Trans>
         </StyledNavLink>
@@ -313,14 +315,17 @@ export default function Header() {
           <Trans>Charts</Trans>
           <sup>↗</sup>
         </StyledExternalLink>
-      </HeaderLinks>
+      </HeaderLinks> */}
 
       <HeaderControls>
+        <StyledExternalLink id={`charts-nav-link`} href="https://vetcoinhq.com/">
+          <Trans>Home</Trans>
+        </StyledExternalLink>
         <HeaderElement>
           <NetworkSelector />
         </HeaderElement>
         <HeaderElement>
-          {availableClaim && !showClaimPopup && (
+          {/* {availableClaim && !showClaimPopup && (
             <UNIWrapper onClick={toggleClaimModal}>
               <UNIAmount active={!!account && !availableClaim} style={{ pointerEvents: 'auto' }}>
                 <ThemedText.DeprecatedWhite padding="0 2px">
@@ -335,15 +340,15 @@ export default function Header() {
               </UNIAmount>
               <CardNoise />
             </UNIWrapper>
-          )}
+          )} */}
           <AccountElement active={!!account}>
-            {account && userEthBalance ? (
+            {/* {account && userEthBalance ? (
               <BalanceText style={{ flexShrink: 0, userSelect: 'none' }} pl="0.75rem" pr=".4rem" fontWeight={500}>
                 <Trans>
                   {userEthBalance?.toSignificant(3)} {nativeCurrencySymbol}
                 </Trans>
               </BalanceText>
-            ) : null}
+            ) : null} */}
             <Web3Status />
           </AccountElement>
         </HeaderElement>

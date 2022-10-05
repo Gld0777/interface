@@ -68,7 +68,7 @@ export function ChainConnectivityWarning() {
         </TitleText>
       </TitleRow>
       <BodyRow $redesignFlag={redesignFlag}>
-        {chainId === SupportedChainId.MAINNET ? (
+        {chainId === SupportedChainId.POLYGON ? (
           <Trans>You may have lost your network connection.</Trans>
         ) : (
           <Trans>{label} might be down right now, or you may have lost your network connection.</Trans>

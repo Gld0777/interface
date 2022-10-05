@@ -1,4 +1,4 @@
-export const UNI_LIST = 'https://tokens.uniswap.org'
+export const UNI_LIST = 'https://raw.githubusercontent.com/Gld0777/project_Data/master/tokenlist/uniswap.org.json'
 export const UNI_EXTENDED_LIST = 'https://extendedtokens.uniswap.org/'
 const UNI_UNSUPPORTED_LISTS = 'https://unsupportedtokens.uniswap.org/'
 const AAVE_LIST = 'tokenlist.aave.eth'

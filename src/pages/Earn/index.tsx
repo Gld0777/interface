@@ -15,7 +15,7 @@ import { STAKING_REWARDS_INFO, useStakingInfo } from '../../state/stake/hooks'
 import { ExternalLink, ThemedText } from '../../theme'
 import { Countdown } from './Countdown'
 
-const PageWrapper = styled(AutoColumn)<{ navBarFlag: boolean }>`
+const PageWrapper = styled(AutoColumn) <{ navBarFlag: boolean }>`
   padding: ${({ navBarFlag }) => (navBarFlag ? '68px 8px 0px' : '0px')};
   max-width: 640px;
   width: 100%;
@@ -77,7 +77,7 @@ export default function Earn() {
             <AutoColumn gap="md">
               <RowBetween>
                 <ThemedText.DeprecatedWhite fontWeight={600}>
-                  <Trans>Uniswap liquidity mining</Trans>
+                  <Trans>VetCoin Swap liquidity mining</Trans>
                 </ThemedText.DeprecatedWhite>
               </RowBetween>
               <RowBetween>

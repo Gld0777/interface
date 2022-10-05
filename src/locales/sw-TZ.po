@@ -923,7 +923,7 @@ msgid "Explore Uniswap Analytics."
 msgstr "Gundua Takwimu za Uniswap."
 
 #: src/components/Popups/FailedNetworkSwitchPopup.tsx
-msgid "Failed to switch networks from the Uniswap Interface. In order to use Uniswap on {0}, you must change the network in your wallet."
+msgid "Failed to switch networks from the VetCoin Swap. In order to use Uniswap on {0}, you must change the network in your wallet."
 msgstr "Imeshindwa kubadilisha mitandao kutoka kwa Kiolesura cha Uniswap. Ili kutumia Uniswap kwenye {0}, lazima ubadilishe mtandao kwenye pochi yako."
 
 #: src/components/Tokens/TokenTable/FavoriteButton.tsx

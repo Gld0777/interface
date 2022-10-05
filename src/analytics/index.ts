@@ -6,7 +6,7 @@ const API_KEY = isProductionEnv() ? process.env.REACT_APP_AMPLITUDE_KEY : proces
 /**
  * Initializes Amplitude with API key for project.
  *
- * Uniswap has two Amplitude projects: test and production. You must be a
+ * VetCoin Swap has two Amplitude projects: test and production. You must be a
  * member of the organization on Amplitude to view details.
  */
 export function initializeAnalytics() {

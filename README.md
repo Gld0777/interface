@@ -1,4 +1,4 @@
-# Uniswap Labs Interface
+# VetCoin Swap Labs Interface
 
 [![Unit Tests](https://github.com/Uniswap/interface/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/unit-tests.yaml)
 [![Integration Tests](https://github.com/Uniswap/interface/actions/workflows/integration-tests.yaml/badge.svg)](https://github.com/Uniswap/interface/actions/workflows/integration-tests.yaml)
@@ -20,9 +20,9 @@ An open source interface for Uniswap -- a protocol for decentralized exchange of
   - [V2](https://uniswap.org/whitepaper.pdf)
   - [V3](https://uniswap.org/whitepaper-v3.pdf)
 
-## Accessing the Uniswap Interface
+## Accessing the VetCoin Swap
 
-To access the Uniswap Interface, use an IPFS gateway link from the
+To access the VetCoin Swap, use an IPFS gateway link from the
 [latest release](https://github.com/Uniswap/uniswap-interface/releases/latest),
 or visit [app.uniswap.org](https://app.uniswap.org).
 
@@ -38,7 +38,7 @@ For steps on local deployment, development, and code contribution, please see [C
 
 ## Accessing Uniswap V2
 
-The Uniswap Interface supports swapping, adding liquidity, removing liquidity and migrating liquidity for Uniswap protocol V2.
+The VetCoin Swap supports swapping, adding liquidity, removing liquidity and migrating liquidity for Uniswap protocol V2.
 
 - Swap on Uniswap V2: https://app.uniswap.org/#/swap?use=v2
 - View V2 liquidity: https://app.uniswap.org/#/pool/v2
@@ -47,5 +47,5 @@ The Uniswap Interface supports swapping, adding liquidity, removing liquidity an
 
 ## Accessing Uniswap V1
 
-The Uniswap V1 interface for mainnet and testnets is accessible via IPFS gateways
+The VetCoin Swap V1 interface for mainnet and testnets is accessible via IPFS gateways
 linked from the [v1.0.0 release](https://github.com/Uniswap/uniswap-interface/releases/tag/v1.0.0).

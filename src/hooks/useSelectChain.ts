@@ -16,7 +16,6 @@ export default function useSelectChain() {
       if (!connector) return
 
       const connectionType = getConnection(connector).type
-
       try {
         dispatch(updateConnectionError({ connectionType, error: undefined }))
         await switchChain(connector, targetChain)

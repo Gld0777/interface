@@ -157,8 +157,8 @@ msgid "Add"
 msgstr "Voeg by"
 
 #: src/components/AccountDetails/TransactionSummary.tsx
-msgid "Add <0/> and <1/> to Uniswap V2"
-msgstr "Voeg <0/> en <1/> by Uniswap V2"
+msgid "Add <0/> and <1/> to VetCoin Swap V2"
+msgstr "Voeg <0/> en <1/> by VetCoin Swap V2"
 
 #: src/components/vote/DelegateModal.tsx
 msgid "Add Delegate +"
@@ -228,8 +228,8 @@ msgid "Allow high price impact trades and skip the confirm screen. Use at your o
 msgstr "Laat handel oor hoë prysimpak toe en slaan die bevestigingsskerm oor. Gebruik op eie risiko."
 
 #: src/pages/Swap/index.tsx
-msgid "Allow the Uniswap Protocol to use your {0}"
-msgstr "Laat die Uniswap-protokol toe om u {0} te gebruik"
+msgid "Allow the VetCoin Swap Protocol to use your {0}"
+msgstr "Laat die VetCoin Swap-protokol toe om u {0} te gebruik"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Allowed"
@@ -244,8 +244,8 @@ msgid "An error occured loading tokens. Please try again."
 msgstr "Kon nie tokens laai nie. Probeer asseblief weer."
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
-msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "'N Fout het voorgekom tydens die uitvoering van hierdie ruil. U moet dalk u glyverdraagsaamheid verhoog. As dit nie werk nie, kan daar 'n onversoenbaarheid wees met die teken wat u verhandel. Opmerking: fooi vir oordrag en herbasis-tokens is nie versoenbaar met Uniswap V3 nie."
+msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note: fee on transfer and rebase tokens are incompatible with VetCoin Swap V3."
+msgstr "'N Fout het voorgekom tydens die uitvoering van hierdie ruil. U moet dalk u glyverdraagsaamheid verhoog. As dit nie werk nie, kan daar 'n onversoenbaarheid wees met die teken wat u verhandel. Opmerking: fooi vir oordrag en herbasis-tokens is nie versoenbaar met VetCoin Swap V3 nie."
 
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 #: src/components/earn/StakingModal.tsx
@@ -300,8 +300,8 @@ msgid "Are you sure?"
 msgstr "Is jy seker?"
 
 #: src/components/claim/ClaimModal.tsx
-msgid "As a member of the Uniswap community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
-msgstr "As lid van die Uniswap-gemeenskap kan u daarop aanspraak maak dat UNI gebruik word vir stemming en beheer. <0/> <1/> <2> Lees meer oor UNI</2>"
+msgid "As a member of the VetCoin Swap community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
+msgstr "As lid van die VetCoin Swap-gemeenskap kan u daarop aanspraak maak dat UNI gebruik word vir stemming en beheer. <0/> <1/> <2> Lees meer oor UNI</2>"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "At least {0} {1} and {2} {3} will be refunded to your wallet due to selected price range."
@@ -375,8 +375,8 @@ msgstr "Deur hierdie lys by te voeg, vertrou u implisiet dat die data korrek is.
 
 #: src/components/WalletModal/index.tsx
 #: src/components/WalletModal/index.tsx
-msgid "By connecting a wallet, you agree to Uniswap Labs’ <0>Terms of Service</0> and acknowledge that you have read and understand the Uniswap <1>Protocol Disclaimer</1>."
-msgstr "Deur 'n beursie te koppel, stem jy in tot Uniswap Labs se <0>Diensbepalings</0> en erken dat jy die Uniswap <1>Protokol Disclaimer</1>gelees en verstaan het."
+msgid "By connecting a wallet, you agree to VetCoin Swap Labs’ <0>Terms of Service</0> and acknowledge that you have read and understand the VetCoin Swap <1>Protocol Disclaimer</1>."
+msgstr "Deur 'n beursie te koppel, stem jy in tot VetCoin Swap Labs se <0>Diensbepalings</0> en erken dat jy die VetCoin Swap <1>Protokol Disclaimer</1>gelees en verstaan het."
 
 #: src/pages/Vote/styled.tsx
 msgid "Canceled"
@@ -728,8 +728,8 @@ msgid "Deposit tokens to the {label} network."
 msgstr "Deponeer tokens na die {label} netwerk."
 
 #: src/pages/Earn/index.tsx
-msgid "Deposit your Liquidity Provider tokens to receive UNI, the Uniswap protocol governance token."
-msgstr "Deponeer u likiditeitsverskaffer-tekens om UNI, die Uniswap-protokolbestuursteken, te ontvang."
+msgid "Deposit your Liquidity Provider tokens to receive UNI, the VetCoin Swap protocol governance token."
+msgstr "Deponeer u likiditeitsverskaffer-tekens om UNI, die VetCoin Swap-protokolbestuursteken, te ontvang."
 
 #: src/components/earn/UnstakingModal.tsx
 msgid "Deposited liquidity:"
@@ -782,8 +782,8 @@ msgid "Don’t see one of your v2 positions? <0>Import it.</0>"
 msgstr "Sien u nie een van u v2-posisies nie? <0> Voer dit in.</0>"
 
 #: src/components/vote/DelegateModal.tsx
-msgid "Earned UNI tokens represent voting shares in Uniswap governance."
-msgstr "Verdiende UNI-tekens verteenwoordig stemgeregtigde aandele in Uniswap-bestuur."
+msgid "Earned UNI tokens represent voting shares in VetCoin Swap governance."
+msgstr "Verdiende UNI-tekens verteenwoordig stemgeregtigde aandele in VetCoin Swap-bestuur."
 
 #: src/components/FeeSelector/index.tsx
 msgid "Edit"
@@ -919,12 +919,12 @@ msgid "Explore Tokens"
 msgstr "Verken Tokens"
 
 #: src/pages/Pool/CTACards.tsx
-msgid "Explore Uniswap Analytics."
-msgstr "Verken Uniswap Analytics."
+msgid "Explore VetCoin Swap Analytics."
+msgstr "Verken VetCoin Swap Analytics."
 
 #: src/components/Popups/FailedNetworkSwitchPopup.tsx
-msgid "Failed to switch networks from the Uniswap Interface. In order to use Uniswap on {0}, you must change the network in your wallet."
-msgstr "Kon nie netwerke van die Uniswap-koppelvlak verander nie. Om Uniswap op {0}te gebruik, moet jy die netwerk in jou beursie verander."
+msgid "Failed to switch networks from the VetCoin Swap. In order to use VetCoin Swap on {0}, you must change the network in your wallet."
+msgstr "Kon nie netwerke van die VetCoin Swap-koppelvlak verander nie. Om VetCoin Swap op {0}te gebruik, moet jy die netwerk in jou beursie verander."
 
 #: src/components/Tokens/TokenTable/FavoriteButton.tsx
 msgid "Favorites"
@@ -955,8 +955,8 @@ msgid "For"
 msgstr "Vir"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "For each pool shown below, click migrate to remove your liquidity from Uniswap V2 and deposit it into Uniswap V3."
-msgstr "Klik op migreer vir elke poel hieronder om u likiditeit uit Uniswap V2 te verwyder en dit in Uniswap V3 te deponeer."
+msgid "For each pool shown below, click migrate to remove your liquidity from VetCoin Swap V2 and deposit it into VetCoin Swap V3."
+msgstr "Klik op migreer vir elke poel hieronder om u likiditeit uit VetCoin Swap V2 te verwyder en dit in VetCoin Swap V3 te deponeer."
 
 #: src/pages/Swap/index.tsx
 msgid "From"
@@ -1234,8 +1234,8 @@ msgid "Migrate V2 Liquidity"
 msgstr "Migreer V2 Likiditeit"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "Migrate your liquidity tokens from Uniswap V2 to Uniswap V3."
-msgstr "Migreer u likiditeitsteken van Uniswap V2 na Uniswap V3."
+msgid "Migrate your liquidity tokens from VetCoin Swap V2 to VetCoin Swap V3."
+msgstr "Migreer u likiditeitsteken van VetCoin Swap V2 na VetCoin Swap V3."
 
 #: src/components/AccountDetails/TransactionSummary.tsx
 msgid "Migrate {0}/{1} liquidity to V3"
@@ -1586,8 +1586,8 @@ msgid "Read more about UNI"
 msgstr "Lees meer oor UNI"
 
 #: src/pages/Vote/Landing.tsx
-msgid "Read more about Uniswap governance"
-msgstr "Lees meer oor Uniswap-bestuur"
+msgid "Read more about VetCoin Swap governance"
+msgstr "Lees meer oor VetCoin Swap-bestuur"
 
 #: src/pages/Pool/v2.tsx
 msgid "Read more about providing liquidity"
@@ -1849,23 +1849,23 @@ msgid "Symbol not found"
 msgstr "Simbool nie gevind nie"
 
 #: src/components/Popups/SurveyPopup.tsx
-msgid "Take a 10 minute survey to help us improve your experience in the Uniswap app."
-msgstr "Neem 'n 10 minute opname om ons te help om jou ervaring in die Uniswap-toepassing te verbeter."
+msgid "Take a 10 minute survey to help us improve your experience in the VetCoin Swap app."
+msgstr "Neem 'n 10 minute opname om ons te help om jou ervaring in die VetCoin Swap-toepassing te verbeter."
 
 #: src/components/Popups/SurveyPopup.tsx
 msgid "Tell us what you think ↗"
 msgstr "Vertel ons wat jy dink ↗"
 
 #: src/components/Popups/ClaimPopup.tsx
-msgid "Thanks for being part of the Uniswap community <0/>"
-msgstr "Dankie dat u deel is van die Uniswap-gemeenskap <0/>"
+msgid "Thanks for being part of the VetCoin Swap community <0/>"
+msgstr "Dankie dat u deel is van die VetCoin Swap-gemeenskap <0/>"
 
 #: src/components/FeeSelector/index.tsx
 msgid "The % you will earn in fees."
 msgstr "Die persentasiegeld wat u verdien."
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
-msgid "The Uniswap invariant x*y=k was not satisfied by the swap. This usually means one of the tokens you are swapping incorporates custom behavior on transfer."
+msgid "The VetCoin Swap invariant x*y=k was not satisfied by the swap. This usually means one of the tokens you are swapping incorporates custom behavior on transfer."
 msgstr "Die ruil-invariant x * y = k is nie bevredig deur die ruil nie. Dit beteken gewoonlik dat een van die tekens wat u omruil, persoonlike gedrag by oordrag bevat."
 
 #: src/components/swap/AdvancedSwapDetails.tsx
@@ -1881,8 +1881,8 @@ msgid "The app fetches on-chain data and constructs contract calls with an Infur
 msgstr "Die toepassing haal data in die ketting en bou kontrakoproepe met 'n Infura API."
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "The app fetches the optimal trade route from a Uniswap Labs server."
-msgstr "Die toepassing haal die optimale handelsroete vanaf 'n Uniswap Labs-bediener."
+msgid "The app fetches the optimal trade route from a VetCoin Swap Labs server."
+msgstr "Die toepassing haal die optimale handelsroete vanaf 'n VetCoin Swap Labs-bediener."
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "The app logs anonymized usage statistics in order to improve over time."
@@ -1939,8 +1939,8 @@ msgid "The output token cannot be transferred. There may be an issue with the ou
 msgstr "Die uitvoer-teken kan nie oorgedra word nie. Daar kan 'n probleem wees met die uitvoer-teken."
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
-msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Die uitvoer-teken kan nie oorgedra word nie. Daar is 'n probleem met die uitvoer-teken. Opmerking: fooi vir oordrag en herbasis-tekens is nie versoenbaar met Uniswap V3 nie."
+msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with VetCoin Swap V3."
+msgstr "Die uitvoer-teken kan nie oorgedra word nie. Daar is 'n probleem met die uitvoer-teken. Opmerking: fooi vir oordrag en herbasis-tekens is nie versoenbaar met VetCoin Swap V3 nie."
 
 #: src/components/Badge/RangeBadge.tsx
 msgid "The price of this pool is outside of your selected range. Your position is not currently earning fees."
@@ -1971,8 +1971,8 @@ msgid "There was an error loading your {0} balance"
 msgstr "Kon nie jou {0} -saldo laai nie"
 
 #: src/components/ConnectedAccountBlocked/index.tsx
-msgid "This address is blocked on the Uniswap Labs interface because it is associated with one or more"
-msgstr "Hierdie adres is geblokkeer op die Uniswap Labs-koppelvlak omdat dit met een of meer geassosieer word"
+msgid "This address is blocked on the VetCoin Swap Labs interface because it is associated with one or more"
+msgstr "Hierdie adres is geblokkeer op die VetCoin Swap Labs-koppelvlak omdat dit met een of meer geassosieer word"
 
 #: src/components/PrivacyPolicy/index.tsx
 msgid "This app uses the following third-party APIs:"
@@ -1995,16 +1995,16 @@ msgid "This token doesn't appear on the active token list(s). Make sure this is 
 msgstr "Hierdie teken verskyn nie op die aktiewe tekenlys(te) nie. Maak seker dat dit die teken is wat u wil verhandel."
 
 #: src/components/SearchModal/BlockedToken.tsx
-msgid "This token is not supported in the Uniswap Labs app"
-msgstr "Hierdie teken word nie in die Uniswap Labs-toepassing ondersteun nie"
+msgid "This token is not supported in the VetCoin Swap Labs app"
+msgstr "Hierdie teken word nie in die VetCoin Swap Labs-toepassing ondersteun nie"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "This tool will safely migrate your {0} liquidity to V3. The process is completely trustless thanks to the"
 msgstr "Hierdie instrument sal u {0} likiditeit veilig na V3 migreer. Die proses is heeltemal vertroulik danksy die"
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
-msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Hierdie transaksie sal weens die prysbeweging nie slaag nie. Probeer u glyverdraagsaamheid verhoog. Opmerking: fooi vir oordrag en herbasis-tekens is nie versoenbaar met Uniswap V3 nie."
+msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with VetCoin Swap V3."
+msgstr "Hierdie transaksie sal weens die prysbeweging nie slaag nie. Probeer u glyverdraagsaamheid verhoog. Opmerking: fooi vir oordrag en herbasis-tekens is nie versoenbaar met VetCoin Swap V3 nie."
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
 msgid "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance."
@@ -2118,8 +2118,8 @@ msgid "UNI has arrived"
 msgstr "UNI het aangebreek"
 
 #: src/pages/Vote/Landing.tsx
-msgid "UNI tokens represent voting shares in Uniswap governance. You can vote on each proposal yourself or delegate your votes to a third party."
-msgstr "UNI-tekens verteenwoordig stemgeregtigde aandele in Uniswap-bestuur. U kan self oor elke voorstel stem of u stemme aan 'n derde party delegeer."
+msgid "UNI tokens represent voting shares in VetCoin Swap governance. You can vote on each proposal yourself or delegate your votes to a third party."
+msgstr "UNI-tekens verteenwoordig stemgeregtigde aandele in VetCoin Swap-bestuur. U kan self oor elke voorstel stem of u stemme aan 'n derde party delegeer."
 
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "UNI {0}/{1} Burned"
@@ -2155,27 +2155,27 @@ msgid "Unexpected issue with estimating the gas. Please try again."
 msgstr "Onverwagte probleem met die skatting van die gas. Probeer asseblief weer."
 
 #: src/pages/Vote/Landing.tsx
-msgid "Uniswap Governance"
+msgid "VetCoin Swap Governance"
 msgstr "Onttrek bestuur"
 
 #: src/components/PrivacyPolicy/index.tsx
-msgid "Uniswap Labs' Terms of Service"
-msgstr "Uniswap Labs se diensbepalings"
+msgid "VetCoin Swap Labs' Terms of Service"
+msgstr "VetCoin Swap Labs se diensbepalings"
 
 #: src/components/SwitchLocaleLink/index.tsx
-msgid "Uniswap available in: <0>{0}</0>"
-msgstr "Uniswap beskikbaar in: <0>{0}</0>"
+msgid "VetCoin Swap available in: <0>{0}</0>"
+msgstr "VetCoin Swap beskikbaar in: <0>{0}</0>"
 
 #: src/components/vote/ProposalEmptyState.tsx
-msgid "Uniswap governance is only available on Layer 1. Switch your network to Ethereum Mainnet to view Proposals and Vote."
-msgstr "Uniswap-bestuur is slegs beskikbaar op Laag 1. Skakel u netwerk oor na Ethereum Mainnet om voorstelle en stem te sien."
+msgid "VetCoin Swap governance is only available on Layer 1. Switch your network to Ethereum Mainnet to view Proposals and Vote."
+msgstr "VetCoin Swap-bestuur is slegs beskikbaar op Laag 1. Skakel u netwerk oor na Ethereum Mainnet om voorstelle en stem te sien."
 
 #: src/pages/Earn/index.tsx
-msgid "Uniswap liquidity mining"
+msgid "VetCoin Swap liquidity mining"
 msgstr "Onttrek likiditeitsontginning"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "Uniswap migration contract↗"
+msgid "VetCoin Swap migration contract↗"
 msgstr "Onttrek migrasie kontrak↗"
 
 #: src/components/SearchModal/TokenImportCard.tsx
@@ -2183,8 +2183,8 @@ msgid "Unknown Source"
 msgstr "Onbekende bron"
 
 #: src/utils/swapErrorToUserReadableMessage.tsx
-msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Onbekende fout{0}. Probeer u glyverdraagsaamheid verhoog. Opmerking: fooi vir oordrag en herbasis-tekens is nie versoenbaar met Uniswap V3 nie."
+msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with VetCoin Swap V3."
+msgstr "Onbekende fout{0}. Probeer u glyverdraagsaamheid verhoog. Opmerking: fooi vir oordrag en herbasis-tekens is nie versoenbaar met VetCoin Swap V3 nie."
 
 #: src/pages/Vote/Landing.tsx
 #: src/pages/Vote/VotePage.tsx
@@ -2239,8 +2239,8 @@ msgid "Update list"
 msgstr "Lys van opdaterings"
 
 #: src/components/Settings/index.tsx
-msgid "Use the Uniswap Labs API to get faster quotes."
-msgstr "Gebruik die Uniswap Labs API om vinniger kwotasies te kry."
+msgid "Use the VetCoin Swap Labs API to get faster quotes."
+msgstr "Gebruik die VetCoin Swap Labs API om vinniger kwotasies te kry."
 
 #: src/components/claim/ClaimModal.tsx
 msgid "User"
@@ -2445,8 +2445,8 @@ msgid "You are creating a pool"
 msgstr "U skep 'n poel"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You are the first liquidity provider for this Uniswap V3 pool. Your liquidity will migrate at the current {0} price."
-msgstr "U is die eerste likiditeitsverskaffer vir hierdie Uniswap V3-poel. U likiditeit sal teen die huidige {0} prys migreer."
+msgid "You are the first liquidity provider for this VetCoin Swap V3 pool. Your liquidity will migrate at the current {0} price."
+msgstr "U is die eerste likiditeitsverskaffer vir hierdie VetCoin Swap V3-poel. U likiditeit sal teen die huidige {0} prys migreer."
 
 #: src/pages/AddLiquidityV2/index.tsx
 msgid "You are the first liquidity provider."
@@ -2489,16 +2489,16 @@ msgid "You must connect an account."
 msgstr "U moet 'n rekening koppel."
 
 #: src/pages/Swap/index.tsx
-msgid "You must give the Uniswap smart contracts permission to use your {0}. You only have to do this once per token."
-msgstr "U moet die Uniswap-slimkontrakte toestemming gee om u {0}te gebruik. U hoef dit slegs een keer per teken te doen."
+msgid "You must give the VetCoin Swap smart contracts permission to use your {0}. You only have to do this once per token."
+msgstr "U moet die VetCoin Swap-slimkontrakte toestemming gee om u {0}te gebruik. U hoef dit slegs een keer per teken te doen."
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You must have {formattedProposalThreshold} votes to submit a proposal"
 msgstr "U moet {formattedProposalThreshold} stemme hê om 'n voorstel in te dien"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You should only deposit liquidity into Uniswap V3 at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
-msgstr "U moet slegs likiditeit in Uniswap V3 deponeer teen 'n prys wat volgens u korrek is. <0 /> As die prys verkeerd lyk, kan u ruil om die prys te skuif, of wag tot iemand anders dit doen."
+msgid "You should only deposit liquidity into VetCoin Swap V3 at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
+msgstr "U moet slegs likiditeit in VetCoin Swap V3 deponeer teen 'n prys wat volgens u korrek is. <0 /> As die prys verkeerd lyk, kan u ruil om die prys te skuif, of wag tot iemand anders dit doen."
 
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "You will also collect fees earned from this position."
@@ -2688,8 +2688,8 @@ msgid "{0, plural, =1 {This token isn't verified} other {These tokens aren't ver
 msgstr "{0, plural, =1 {Hierdie teken is nie geverifieer nie} other {Hierdie tekens is nie geverifieer nie}}"
 
 #: src/constants/tokenSafety.tsx
-msgid "{0, plural, =1 {You can't trade this token using the Uniswap App.} other {You can't trade these tokens using the Uniswap App.}}"
-msgstr "{0, plural, =1 {Jy kan nie hierdie teken met die Uniswap-toepassing verhandel nie.} other {Jy kan nie hierdie tokens verhandel met die Uniswap-toepassing nie.}}"
+msgid "{0, plural, =1 {You can't trade this token using the VetCoin Swap App.} other {You can't trade these tokens using the VetCoin Swap App.}}"
+msgstr "{0, plural, =1 {Jy kan nie hierdie teken met die VetCoin Swap-toepassing verhandel nie.} other {Jy kan nie hierdie tokens verhandel met die VetCoin Swap-toepassing nie.}}"
 
 #: src/components/RateToggle/index.tsx
 #: src/components/RateToggle/index.tsx

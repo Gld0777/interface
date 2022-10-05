@@ -220,13 +220,13 @@ export default function Swap() {
     () =>
       showWrap
         ? {
-            [Field.INPUT]: parsedAmount,
-            [Field.OUTPUT]: parsedAmount,
-          }
+          [Field.INPUT]: parsedAmount,
+          [Field.OUTPUT]: parsedAmount,
+        }
         : {
-            [Field.INPUT]: independentField === Field.INPUT ? parsedAmount : trade?.inputAmount,
-            [Field.OUTPUT]: independentField === Field.OUTPUT ? parsedAmount : trade?.outputAmount,
-          },
+          [Field.INPUT]: independentField === Field.INPUT ? parsedAmount : trade?.inputAmount,
+          [Field.OUTPUT]: independentField === Field.OUTPUT ? parsedAmount : trade?.outputAmount,
+        },
     [independentField, parsedAmount, showWrap, trade]
   )
 
@@ -376,8 +376,8 @@ export default function Swap() {
             recipient === null
               ? 'Swap w/o Send'
               : (recipientAddress ?? recipient) === account
-              ? 'Swap w/o Send + recipient'
-              : 'Swap w/ Send',
+                ? 'Swap w/o Send + recipient'
+                : 'Swap w/ Send',
           label: [TRADE_STRING, trade?.inputAmount?.currency?.symbol, trade?.outputAmount?.currency?.symbol, 'MH'].join(
             '/'
           ),
@@ -706,11 +706,11 @@ export default function Swap() {
                               <span style={{ display: 'flex', alignItems: 'center' }}>
                                 {/* we need to shorten this string on mobile */}
                                 {approvalState === ApprovalState.APPROVED ||
-                                signatureState === UseERC20PermitState.SIGNED ? (
+                                  signatureState === UseERC20PermitState.SIGNED ? (
                                   <Trans>You can now trade {currencies[Field.INPUT]?.symbol}</Trans>
                                 ) : (
                                   <Trans>
-                                    Allow the Uniswap Protocol to use your {currencies[Field.INPUT]?.symbol}
+                                    Allow the VetCoin Swap Protocol to use your {currencies[Field.INPUT]?.symbol}
                                   </Trans>
                                 )}
                               </span>
@@ -723,7 +723,7 @@ export default function Swap() {
                                 <MouseoverTooltip
                                   text={
                                     <Trans>
-                                      You must give the Uniswap smart contracts permission to use your{' '}
+                                      You must give the VetCoin Swap smart contracts permission to use your{' '}
                                       {currencies[Field.INPUT]?.symbol}. You only have to do this once per token.
                                     </Trans>
                                   }
