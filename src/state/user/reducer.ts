@@ -90,6 +90,7 @@ const userSlice = createSlice({
     },
     updateUserDarkMode(state, action) {
       state.userDarkMode = action.payload.userDarkMode
+      console.log('debug here', state.userDarkMode, action.payload.userDarkMode)
       state.timestamp = currentTimestamp()
     },
     updateMatchesDarkMode(state, action) {

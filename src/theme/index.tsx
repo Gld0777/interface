@@ -59,7 +59,7 @@ const opacities = {
 const deprecated_mediaWidthTemplates: { [width in keyof typeof MEDIA_WIDTHS]: typeof css } = Object.keys(
   MEDIA_WIDTHS
 ).reduce((accumulator, size) => {
-  ;(accumulator as any)[size] = (a: any, b: any, c: any) => css`
+  ; (accumulator as any)[size] = (a: any, b: any, c: any) => css`
     @media (max-width: ${(MEDIA_WIDTHS as any)[size]}px) {
       ${css(a, b, c)}
     }
@@ -139,7 +139,7 @@ function oldColors(darkMode: boolean): Colors {
     deprecated_black,
 
     // text
-    deprecated_text1: darkMode ? '#FFFFFF' : '#000000',
+    deprecated_text1: darkMode ? '#02d1ae' : '#000000',
     deprecated_text2: darkMode ? '#C3C5CB' : '#565A69',
     deprecated_text3: darkMode ? '#8F96AC' : '#6E727D',
     deprecated_text4: darkMode ? '#B2B9D2' : '#C3C5CB',
@@ -301,7 +301,7 @@ export default function ThemeProvider({ children }: { children: React.ReactNode 
   return <StyledComponentsThemeProvider theme={themeObject}>{children}</StyledComponentsThemeProvider>
 }
 
-const TextWrapper = styled(Text)<{ color: keyof AllColors }>`
+const TextWrapper = styled(Text) <{ color: keyof AllColors }>`
   color: ${({ color, theme }) => (theme as any)[color]};
 `
 

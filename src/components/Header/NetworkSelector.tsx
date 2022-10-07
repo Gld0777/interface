@@ -282,7 +282,6 @@ const NETWORK_SELECTOR_CHAINS = [
 export default function NetworkSelector() {
   const { chainId, provider } = useWeb3React()
 
-  console.log('debug info', chainId, provider)
   const node = useRef<HTMLDivElement>(null)
   const isOpen = useModalIsOpen(ApplicationModal.NETWORK_SELECTOR)
   const openModal = useOpenModal(ApplicationModal.NETWORK_SELECTOR)

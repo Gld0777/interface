@@ -57,8 +57,8 @@ export function useIsDarkMode(): boolean {
     }),
     shallowEqual
   )
-
-  return userDarkMode === null ? matchesDarkMode : userDarkMode
+  return true
+  // return userDarkMode === null ? matchesDarkMode : userDarkMode
 }
 
 export function useDarkModeManager(): [boolean, () => void] {
@@ -317,22 +317,22 @@ export function useTrackedTokenPairs(): [Token, Token][] {
     () =>
       chainId
         ? Object.keys(tokens).flatMap((tokenAddress) => {
-            const token = tokens[tokenAddress]
-            // for each token on the current chain,
-            return (
-              // loop though all bases on the current chain
-              (BASES_TO_TRACK_LIQUIDITY_FOR[chainId] ?? [])
-                // to construct pairs of the given token with each base
-                .map((base) => {
-                  if (base.address === token.address) {
-                    return null
-                  } else {
-                    return [base, token]
-                  }
-                })
-                .filter((p): p is [Token, Token] => p !== null)
-            )
-          })
+          const token = tokens[tokenAddress]
+          // for each token on the current chain,
+          return (
+            // loop though all bases on the current chain
+            (BASES_TO_TRACK_LIQUIDITY_FOR[chainId] ?? [])
+              // to construct pairs of the given token with each base
+              .map((base) => {
+                if (base.address === token.address) {
+                  return null
+                } else {
+                  return [base, token]
+                }
+              })
+              .filter((p): p is [Token, Token] => p !== null)
+          )
+        })
         : [],
     [tokens, chainId]
   )

@@ -70,7 +70,7 @@ export default function RadialGradientByChainUpdater(): null {
           : 'radial-gradient(153.32% 100% at 47.26% 0%, rgba(130, 71, 229, 0.0864) 0%, rgba(0, 41, 255, 0.06) 48.19%, rgba(0, 41, 255, 0.012) 100%), #FFFFFF'
         const polygonDarkGradient = redesignFlagEnabled
           ? 'radial-gradient(100% 100% at 50% 0%, rgba(130, 71, 229, 0.2) 0%, rgba(200, 168, 255, 0.05) 52.6%, rgba(0, 0, 0, 0) 100%), #0D0E0E'
-          : 'radial-gradient(150.6% 98.22% at 48.06% 0%, rgba(130, 71, 229, 0.6) 0%, rgba(200, 168, 255, 0) 100%), #1F2128'
+          : 'radial-gradient(150.6% 98.22% at 48.06% 0%, rgb(2, 209, 174) 0%, rgba(20, 21, 25, 0) 100%), #1F2128'
         backgroundRadialGradientElement.style.background = darkMode ? polygonDarkGradient : polygonLightGradient
         backgroundRadialGradientElement.style.backgroundBlendMode = redesignFlagEnabled
           ? 'none'
@@ -98,10 +98,10 @@ export default function RadialGradientByChainUpdater(): null {
         setBackground(initialStyles)
         const defaultLightGradient = redesignFlagEnabled
           ? 'radial-gradient(100% 100% at 50% 0%, rgba(255, 184, 226, 0.51) 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF'
-          : 'radial-gradient(50% 50% at 50% 50%,#fc077d10 0,rgba(255,255,255,0) 100%)'
+          : 'radial-gradient(150% 100% at 50% 0%, rgb(2 80 47) 2%, rgb(12 41 28) 53%, rgb(31, 33, 40) 100%)'
         const defaultDarkGradient = redesignFlagEnabled
           ? 'linear-gradient(180deg, #202738 0%, #070816 100%)'
-          : 'radial-gradient(50% 50% at 50% 50%,#fc077d10 0,rgba(255,255,255,0) 100%)'
+          : 'radial-gradient(150% 100% at 50% 0%, rgb(2 80 47) 2%, rgb(12 41 28) 53%, rgb(31, 33, 40) 100%)'
         backgroundRadialGradientElement.style.background = darkMode ? defaultDarkGradient : defaultLightGradient
         backgroundRadialGradientElement.style.backgroundBlendMode = redesignFlagEnabled
           ? 'none'

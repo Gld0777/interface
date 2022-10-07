@@ -224,7 +224,7 @@ export default function Menu() {
   const [darkMode, toggleDarkMode] = useDarkModeManager()
 
   const [menu, setMenu] = useState<'main' | 'lang'>('main')
-
+  console.log('debug dark', darkMode)
   useEffect(() => {
     setMenu('main')
   }, [open])
